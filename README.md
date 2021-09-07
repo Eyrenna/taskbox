@@ -31,7 +31,7 @@ This template ships with the main React and Storybook configuration files you'll
     cd taskbox/
 
     # Install the dependencies
-    yarn
+    (yarn) or npm install
     ```
 
 1.  **Open the source code and start editing!**
@@ -40,7 +40,18 @@ This template ships with the main React and Storybook configuration files you'll
 
 1.  **Browse your stories!**
 
-    Run `yarn storybook` to see your component's stories at `http://localhost:6006`
+    (Run `yarn storybook`) to see your component's stories at `http://localhost:6006`:
+    ```
+    npm run storybook
+    ```
+    to see it in your browser `http://localhost:3000`:
+    ```
+    npm start
+    ```
+    to test in `console`:
+    ```
+    npm test --watchAll
+    ```
 
 ## 🔎 What's inside?
 
@@ -55,7 +66,7 @@ A quick look at the top-level files and directories included with this template.
     ├── .gitignore
     ├── LICENSE
     ├── package.json
-    ├── yarn.lock
+    ├── yarn.lock (Delete if you use npm)
     └── README.md
 
 
@@ -75,7 +86,7 @@ A quick look at the top-level files and directories included with this template.
 
 8. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
 
-9. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+9. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).** [Delete if you use npm]
 
 10. **`README.md`**: A text file containing useful reference information about the project.
 
