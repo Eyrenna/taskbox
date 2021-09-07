@@ -48,9 +48,17 @@ This template ships with the main React and Storybook configuration files you'll
     ```
     npm start
     ```
+1.  **Test your stories**
+
+    With `@storybook/addon-storyshots` (snapshots) and `@testing-library/react`+`@storybook/testing-react`
+    
     to test in `console`:
     ```
     npm test --watchAll
+    ```
+    remember update your snapshots:
+    ```
+    npm update snapshot
     ```
 
 ## 🔎 What's inside?
